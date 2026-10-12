@@ -1,0 +1,58 @@
+# AI agent and personal files
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+GEMINI.md
+.claude/
+.cursor/
+.aider*
+notes/
+
+# Dependencies
+node_modules/
+.npm/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Build and test output
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Docker local data
+docker/data/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Ansible
+*.retry
+.vault_pass*
+
+# Kubernetes
+kubeconfig*
+*.kubeconfig
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
