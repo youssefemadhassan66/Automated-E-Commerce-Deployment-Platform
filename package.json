@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-platform",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Automated E-Commerce Deployment Platform",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "engines": {
+    "node": ">=26.11.1",
+    "npm": ">=12.2.0"
+  },
+  "packageManager": "npm@12.2.0"
+}
